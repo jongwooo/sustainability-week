@@ -1,0 +1,40 @@
+{
+  "name": "sustainability-week",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cloud Native Sustainability Week in Seoul web page",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongwooo/sustainability-week.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jongwooo/sustainability-week/issues"
+  },
+  "homepage": "https://github.com/gjongwooo/sustainability-week#readme",
+  "dependencies": {
+    "@fontsource/inter": "^5.0.15",
+    "gatsby": "^5.12.8",
+    "gatsby-plugin-image": "^3.12.2",
+    "gatsby-plugin-react-helmet": "^6.12.0",
+    "gatsby-plugin-sharp": "^5.12.2",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-sharp": "^5.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "sanitize-html": "^2.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.3"
+  }
+}
